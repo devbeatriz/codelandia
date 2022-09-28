@@ -1,0 +1,29 @@
+body {
+  margin: 0px;
+  font-family: 'Lexend Deca', sans-serif;
+  color: #111111;
+}
+
+h1,
+h2,
+h3,
+h4,
+ul,
+p {
+  margin: 0px;
+}
+
+ul {
+  padding: 0px;
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
