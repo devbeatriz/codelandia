@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+  background: linear-gradient(130.02deg, #628E75 0.66%, #1A4855 83.32%) no-repeat center center;
+  color: #FFF;
+  height: 100vh;
+}
+
+
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #FFF;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 40px;
+  padding-bottom: 80px;
+}
+
+.nav {
+  display: flex;
+  gap: 30px;
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+
+h3 {
+  font-size: 1.25rem;
+  padding-bottom: 14px;
+}
+
+h1 {
+  font-size: 4.25rem;
+  line-height: 109%;
+  padding-bottom: 25px;
+}
+
+.descripition {
+  padding-bottom: 46px;
+  line-height: 180%;
+}
+
+.botao {
+  font-size: 1rem;
+  text-transform: uppercase;
+  padding: 10px 45px;
+  cursor: pointer;
+
+  transform: skewX(-16deg);
+}
+
+.botao p {
+  transform: skewX(16deg);
+}
+
+.container-buttons {
+  display: flex;
+  align-items: center;
+  gap: 24px;
+}
+
+.btn1 {
+  background: #658E76;
+  border: 2px solid transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 16px;
+}
+
+.btn1 img {
+  width: 24px;
+  transform: skewX(16deg);
+}
+
+.btn1:hover {
+  background: #8DBBA0;
+}
+
+.btn2 {
+  border: 2px solid #658E76;
+}
+
+.btn2:hover {
+  border: 2px solid #8DBBA0;
+}
+
+.container-image {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+#image-a {
+  position: absolute;
+  right: 0;
+  animation: mymove 10s infinite;
+  transition: all ease;
+}
+
+@keyframes mymove {
+  0% {
+    top: -66px;
+  }
+
+  50% {
+    top: 40px;
+  }
+
+  100% {
+    top: -66px;
+  }
+}
