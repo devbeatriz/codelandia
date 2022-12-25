@@ -57,7 +57,39 @@
     </main>
   
     <footer>
-      footer
+      <span id="timeline"></span>
+
+      <div class="footer__content">
+        <div class="music">
+          <img src="./assets/icons/heart.svg" alt="Ìcone de coração" onload="SVGInject(this)">
+          <h2>Warriors</h2>
+          <h3>Riot games ft. Imagine Dragons</h3>
+        </div>
+
+        <div class="player">
+          <img src="./assets/icons/repeat.svg" alt="Ìcone da ação de repetição" onload="SVGInject(this)">
+
+          <div class="player__main">
+            <button type="button" onclick="changeMusic(-1)">
+              <img src="./assets/icons/chevron-left.svg" alt="Ìcone seta para esquerda" onload="SVGInject(this)">
+            </button>
+
+            <button type="button" onclick="playMusic()" id="button__play" class="play">
+              <img src="./assets/icons/play.svg" alt="Ìcone player" onload="SVGInject(this)">
+            </button>
+
+            <button type="button" onclick="changeMusic(1)">
+              <img src="./assets/icons/chevron-right.svg" alt="Ìcone seta para direita" onload="SVGInject(this)">
+            </button>
+          </div>
+          <img src="./assets/icons/loop.svg" alt="Ìcone da ação de looping" onload="SVGInject(this)">
+        </div>
+
+        <div class="controller">
+          <img src="./assets/icons/volume.svg" alt="Ìcone para controlar o volume" onload="SVGInject(this)">
+          <img src="./assets/icons/minimize.svg" alt="Ìcone para minimizar a aplicação" onload="SVGInject(this)">
+        </div>
+      </div>
     </footer>
   </div>
 </body>
