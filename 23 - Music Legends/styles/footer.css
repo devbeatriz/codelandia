@@ -1,5 +1,28 @@
 footer {
   display: flex;
+  position: relative;
+}
+
+#timeline {
+  position: absolute;
+  top: -2px;
+  left: 0;
+  display: flex;
+  justify-content: flex-end;
+  width: 400px;
+  height: 4px;
+  background: linear-gradient(90.35deg, #4AC08F 2.49%, #2FB4FF 101.2%, #2FB4FF 101.2%);
+}
+
+#timeline::before {
+  content: '';
+  display: block;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--secondary);
+  transform: translateY(-6px);
+  filter: blur(0.2px);
 }
 
 .footer__content {
