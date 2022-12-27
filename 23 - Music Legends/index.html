@@ -10,12 +10,19 @@
   <script src="scripts/svg-inject.min.js"></script>
   <link rel="stylesheet" href="styles/global.css">
 </head>
-<body>
+<body> 
   <div class="app">
     <header>
-     <div class="header__content">
+      <div class="header__content">
+        <button type="button" id="button__toggle" onclick="handleToggle()">
+          <span></span>
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
         <nav>
-          <ul class="navigation">
+          <ul id="navigation">
             <li>
               <a href="#">Início</a>
             </li>
@@ -27,35 +34,44 @@
             </li>
           </ul>
         </nav>
-    
-        <h1>Music Legends</h1>
-    
+  
+        <h1>music legends</h1>
+  
         <div class="user">
           <span>Bea Rodrigues</span>
           <div class="user__avatar">
-            <img src="https://github.com/devbeatriz.png" alt="Avatar do GitHub">
+            <img src="https://github.com/devbeatriz.png" alt="Avatar do usuário">
           </div>
         </div>
-     </div>
+      </div>
     </header>
-  
+
     <main>
       <div class="main__content">
-        <img class="logo" src="assets/logo.png" alt="Logo League of Legends">
+        <img class="logo" src="./assets/logo.png" alt="Logo da liga das lendas">
         <strong>riot games</strong>
 
         <div class="controll">
-          <button type="button" disabled>
-            <img src="assets/icons/chevron-left.svg" alt="Ícone seta para esquerda" onload="SVGInject(this)">
+          <button type="button" onclick="changeMusic(-1)">
+            <img src="./assets/icons/chevron-left.svg" alt="Ìcone seta para esquerda"  onload="SVGInject(this)">
           </button>
           <span>1/20</span>
-          <button type="button">
-            <img src="assets/icons/chevron-right.svg" alt="Ícone seta para direita" onload="SVGInject(this)">
+          <button type="button" onclick="changeMusic(1)">
+            <img src="./assets/icons/chevron-right.svg" alt="Ìcone seta para direita" onload="SVGInject(this)">
           </button>
+        </div>
+
+        <div class="music__mobile">
+          <div>
+            <h2></h2>
+            <img src="./assets/icons/heart.svg" alt="Ìcone de coração" onload="SVGInject(this)">
+          </div>
+          
+          <h3></h3>
         </div>
       </div>
     </main>
-  
+
     <footer>
       <span id="timeline"></span>
 
@@ -76,6 +92,7 @@
 
             <button type="button" onclick="playMusic()" id="button__play" class="play">
               <img src="./assets/icons/play.svg" alt="Ìcone player" onload="SVGInject(this)">
+              <img src="./assets/icons/pause.svg" alt="Ìcone player" onload="SVGInject(this)">
             </button>
 
             <button type="button" onclick="changeMusic(1)">
@@ -92,5 +109,7 @@
       </div>
     </footer>
   </div>
+
+  <script src="./scripts/index.js"></script>
 </body>
 </html>
