@@ -2,7 +2,7 @@ main {
   flex: 1;
   display: flex;
 
-  background-image: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.66)), url('../assets/background.png');
+  background-image: linear-gradient(rgba(0,0,0,0.66), rgba(0,0,0,0.66)), url('/assets/background.png');
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
@@ -13,6 +13,7 @@ main {
   max-width: 1440px;
   margin: auto auto 0;
   padding: 24px 24px 228px;
+
   display: flex;
   flex-direction: column;
 }
@@ -26,7 +27,9 @@ main {
   font-size: 1.5rem;
   line-height: 1.75rem;
   font-weight: 500;
+
   text-transform: uppercase;
+
   margin: 24px 0 32px;
 }
 
@@ -38,9 +41,11 @@ main {
 
 .controll button {
   display: flex;
+
   width: 40px;
   height: 40px;
   border-radius: 50%;
+
   background: var(--tertiary);
 }
 
@@ -50,6 +55,7 @@ main {
 
 .controll button svg {
   margin: auto;
+
   width: 22px;
   height: auto;
 }
@@ -125,6 +131,7 @@ main {
   .main__content strong {
     font-size: 1.125rem;
     line-height: 1.25rem;
+  
     margin: 16px 0 24px;
   }
 
@@ -141,4 +148,5 @@ main {
   .controll button svg {
     width: 16px;
   }
+
 }

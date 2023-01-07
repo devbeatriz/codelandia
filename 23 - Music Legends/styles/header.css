@@ -10,10 +10,12 @@ header nav, .user {
 
 #button__toggle {
   visibility: hidden;
+
   display: none;
   flex-direction: column;
   align-items: flex-start;
   row-gap: 4px;
+
   background: transparent;
   transition: all 0.6s;
 }
@@ -23,6 +25,7 @@ header nav, .user {
   width: 24px;
   height: 2px;
   background: var(--primary);
+
   transition: all 0.6s;
 }
 
@@ -50,6 +53,7 @@ header nav, .user {
   display: flex;
   align-items: center;
   justify-content: space-between;
+
   padding: 26px;
   margin: 0 auto;
   width: 100%;
@@ -60,6 +64,7 @@ header nav, .user {
   display: flex;
   align-items: center;
   column-gap: 56px;
+
   list-style: none;
 }
 
@@ -74,9 +79,11 @@ header nav, .user {
 
 #navigation li.active::before {
   content: '';
+
   position: absolute;
   bottom: 0;
   left: 0;
+
   width: 100%;
   height: 2px;
   transform: translateY(6px);
@@ -87,6 +94,7 @@ header nav, .user {
   font-size: 2rem;
   line-height: 2.375rem;
   font-weight: 500;
+
   text-transform: uppercase;
 }
 
@@ -101,6 +109,7 @@ header nav, .user {
   width: 48px;
   height: 48px;
   border-radius: 50%;
+
   padding: 2px;
   background: linear-gradient(90.35deg, #4AC08F 2.49%, #2FB4FF 101.2%, #2FB4FF 101.2%);
 }
@@ -109,6 +118,7 @@ header nav, .user {
   width: 100%;
   height: 100%;
   border-radius: 50%;
+
   object-fit: cover;
 }
 
@@ -143,13 +153,16 @@ header nav, .user {
     position: fixed;
     top: -100vh;
     left: 0;
+
     width: 100%;
     height: 100vh;
     background: rgba(20, 6, 31, 0.85);
     backdrop-filter: blur(4px);
+
     flex-direction: column;
     justify-content: center;
     row-gap: 48px;
+
     transition: all 1s;
   }
 

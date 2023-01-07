@@ -5,7 +5,7 @@
 
 @font-face {
   font-family: "GT Eesti Pro Display";
-  src: url("../fonts/GT-Eesti-Display-Regular.otf");
+  src: url("/fonts/GT-Eesti-Display-Regular.otf");
   font-style: normal;
   font-weight: 400;
   font-display: swap;
@@ -13,7 +13,7 @@
 
 @font-face {
   font-family: "GT Eesti Pro Display";
-  src: url("../fonts/GT-Eesti-Display-Medium.otf");
+  src: url("/fonts/GT-Eesti-Display-Medium.otf");
   font-style: normal;
   font-weight: 500;
   font-display: swap;
