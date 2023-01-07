@@ -13,5 +13,9 @@
 <p align="center"><a href="https://aviagem-db.vercel.app/">Clique aqui</a> para ver o projeto.</p>
 
 ##
+<h3 align="center"> Desafio 23 - Music Legends </h3>
+
+![Capturar](https://user-images.githubusercontent.com/94017930/211123857-f48f07db-44c6-4d42-a1e3-676633f2df29.PNG)
+<p align="center"><a href="https://musiclegends-db.vercel.app/">Clique aqui</a> para ver o projeto.</p>
 
  <p> Made with ♥ by Beatriz Rodrigues. <a href="https://www.linkedin.com/in/devbeatriz/">👋 Get in touch!</a></p>
